@@ -1,0 +1,12 @@
+
+.home{
+    height: 100vh;
+    background: url("../../assets/bg.87635d9.webp");
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .home{
+    height: 120vh;
+  }
+  }

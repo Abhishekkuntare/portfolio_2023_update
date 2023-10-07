@@ -1,0 +1,102 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.header_options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  margin-left: 10px;
+  font-family: "Stalinist One", cursive;
+  font-size: 29px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+}
+
+.logo_0 {
+  color: white;
+}
+
+.logo_1 {
+  color: #5918df;
+}
+.font {
+  font-family: "Major Mono Display", monospace;
+}
+ul {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+.header_options_01 {
+  padding-right: 20px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+ul:hover {
+  transform: translateY(10px);
+}
+.header_menu {
+  display: none;
+}
+.music {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+.music > svg:hover {
+  color: #5918df;
+}
+
+@media screen and (max-width: 817px) {
+  .header_main {
+    display: none;
+  }
+  .header_menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 817px) {
+  .logo {
+    font-size: 24px;
+  }
+  .music{
+    margin-right: 0px;
+  }
+}
+
+.mobileMenu {
+  box-shadow: rgba(6, 42, 249, 0.56) 0px 22px 70px 4px;
+  top: 0;
+  position: fixed;
+  background-color: #0e0c16;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100001;
+  margin-top: 77px;
+  left: 0;
+  right: 0;
+}
+.mobileMenu > a > ul {
+  z-index: 100000;
+  margin-top: 15px;
+}
