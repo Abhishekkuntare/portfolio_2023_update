@@ -5,10 +5,12 @@ import TopDown from "./assets/TopDown";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./assets/Sidebar/Sidebar";
 import WorkInside from "./components/Work_Inside/WorkInside";
+import PreLoader from "./assets/Loader/Loader";
 
 const App = () => {
   return (
     <div>
+      <PreLoader />
       <Router>
         <Cursor />
         <TopDown />

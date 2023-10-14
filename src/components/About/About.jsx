@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <div className="about" id="about">
-      <Fade left>
+      <Fade>
         <h1 className="about_h1">
           <div className="about_circle" />
           About {"/>"}
@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <div className="aboutdata">
-            <Fade left>
+            <Fade bottom>
               <div className="row_1">
                 <p className="aboutdata_p hover">
                   #include{" "}
@@ -51,7 +51,7 @@ const About = () => {
                 </p>
               </div>
             </Fade>
-            <Fade left>
+            <Fade bottom>
               <div className="row_2">
                 <p className="aboutdata_p hover">
                   using <span className="aboutdata_span asc">experience</span> &{" "}
@@ -59,7 +59,7 @@ const About = () => {
                 </p>
               </div>
             </Fade>
-            <Fade left>
+            <Fade bottom>
               <div className="row_3">
                 <p className="aboutdata_p hover">
                   class{" "}
@@ -67,7 +67,7 @@ const About = () => {
                 </p>
               </div>
             </Fade>
-            <Fade left>
+            <Fade bottom>
               <div className="comment">
                 <p className="aboutdata_p comment">
                   <span className="dot">....</span>// I can, because I did.{" "}
@@ -78,7 +78,7 @@ const About = () => {
                 </p>
               </div>
             </Fade>
-            <Fade left>
+            <Fade bottom>
               <div className="row4">
                 <p className="aboutdata_p hover">
                   <span className="dot">..</span>constructor{"(){"}{" "}
@@ -86,7 +86,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row5">
                 <span className="aboutdata_p  row5_this">
                   <span className="dot">....</span>this{" "}
@@ -97,7 +97,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row6">
                 <span className="aboutdata_p  row5_this">
                   <span className="dot">....</span>this{" "}
@@ -108,7 +108,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row7">
                 <span className="aboutdata_p  row5_this">
                   <span className="dot">....</span>this{" "}
@@ -119,13 +119,13 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row8  ">
                 <span className="aboutdata_p">{"}"}</span>
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row9">
                 <p className="aboutdata_p hover">
                   <span className="dot">..</span>
@@ -134,7 +134,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row10">
                 <span className="aboutdata_p hover">
                   <span className="dot">.....</span>return
@@ -142,7 +142,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row11">
                 <span className="aboutdata_p row5_myname">
                   <span className="dot">..... </span> '10/2021'
@@ -154,7 +154,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row12">
                 <span className="aboutdata_p row5_myname">
                   <span className="dot">..... </span> '12/2021'
@@ -166,7 +166,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row13">
                 <span className="aboutdata_p row5_myname">
                   <span className="dot">..... </span> '01/2022'
@@ -179,7 +179,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row14">
                 <span className="aboutdata_p row5_myname">
                   <span className="dot">..... </span> '08/2023'
@@ -191,13 +191,13 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row15 ">
                 <span className="aboutdata_span">{"}"}</span>
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row16">
                 <p className="aboutdata_p hover">
                   <span className="dot">..</span>
@@ -206,7 +206,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row17">
                 <span className="aboutdata_p hover">
                   <span className="dot">.....</span>return
@@ -214,7 +214,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row18">
                 <span className="aboutdata_p row5_myname">
                   <span className="dot">..... </span> 'JAN-2018'
@@ -226,7 +226,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row19">
                 <span className="aboutdata_p row5_myname">
                   <span className="dot">..... </span> '2018-2020'
@@ -238,7 +238,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row20">
                 <span className="aboutdata_p row5_myname">
                   <span className="dot">..... </span> '2021-2024'
@@ -251,13 +251,13 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row21 ">
                 <span className="aboutdata_span">{"}"}</span>
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row23">
                 <p className="aboutdata_p hover">
                   <span className="dot">..</span>
@@ -266,7 +266,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row24">
                 <span className="aboutdata_p hover">
                   <span className="dot">.....</span>return
@@ -274,7 +274,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row25">
                 <span className="aboutdata_p row5_myname">
                   <span className="'aboutdata_p row5_myname '">
@@ -290,19 +290,19 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row26 ">
                 <span className="aboutdata_span">{"}"}</span>
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row27 ">
                 <span className="aboutdata_span">{"}"}</span>
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row_1">
                 <p className="aboutdata_p hover">
                   int main () {"{"} <br />
@@ -313,7 +313,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="comment">
                 <p className="aboutdata_p comment">
                   <span className="dot">....</span>// If you don't chase it.{" "}
@@ -324,7 +324,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row_1">
                 <p className="color_call2 ">
                   AK.workExperience(){";"} <br />
@@ -334,13 +334,13 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row_1">
                 <p className="aboutdata_p hover">return 0{";"}</p>
               </div>
             </Fade>
 
-            <Fade left>
+            <Fade bottom>
               <div className="row26 ">
                 <span className="aboutdata_span">{"}"}</span>
               </div>

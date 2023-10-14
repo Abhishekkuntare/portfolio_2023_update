@@ -139,7 +139,9 @@
   margin-left: 10px;
   font-family: "Source Code Pro", monospace;
 }
-
+.work_inside_btn_color{
+  background: linear-gradient(-45deg, #e90c00f6, #ff3d3d, #ed583e, #f90000);
+}
 @media screen and (max-width: 900px) {
   .work_inside_side_box {
     position: unset;

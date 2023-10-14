@@ -36,7 +36,7 @@ const Lab = () => {
 
       <div className="lab_flex">
         <Container>
-          <Fade left>
+          <Fade bottom>
             <h1 className="lab_h1">
               <div className="lab_circle" />
               Lab {"/>"}
@@ -46,7 +46,7 @@ const Lab = () => {
               web apps, Mobile Apps, archived stuff and more.
             </p>
           </Fade>
-          <Fade left>
+          <Fade bottom>
             <h1 className="lab_title lab_title_codi">Coding Platform</h1>
             <Ul>
               {fakeData.map((elem, i) => (
@@ -68,7 +68,7 @@ const Lab = () => {
           ></div>
         </Container>
         <Container>
-          <Fade left>
+          <Fade bottom>
             <h1 className="lab_title">Random</h1>
             <Ul>
               {otherData.map((elem, i) => (

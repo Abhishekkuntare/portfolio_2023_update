@@ -5,13 +5,13 @@ import Fade from "react-reveal/Fade";
 
 const Start = () => {
   return (
-    <Fade left cascade>
+    <Fade bottom cascade>
       <div id="start" className="start">
         <div>
           <div className="start_circle" />
           <div className="star_vl" />
         </div>
-        <Fade left cascade>
+        <Fade cascade>
           <div className="start_txt">
             <h3>Start {"/>"}</h3>
             <div>

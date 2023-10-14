@@ -120,6 +120,8 @@ const projects = [
     title: "Amba Motors (Garage)",
     desc: "Amab Motors is the Garage or say workshop of cars and the owner of the workshop is my Father. So this webapp is all about how the user can register/login them account and access the things which is present on the webapps.Their is the bunch of functionlity and services are provided to the user for their valueable and lovely cars. ",
     website: "https://ambamotors.vercel.app/",
+    code: "https://github.com/Abhishekkuntare/ambamotors",
+
     prev: "/",
   },
   {
@@ -134,6 +136,7 @@ const projects = [
     title: "KAFF (Foodie",
     desc: "In my portfolio, I proudly present KAFF, an engaging online foodie web app. Crafted using the MERN stack and fortified with Razorpay's secure payment processing, Kaff is your go-to destination for mouthwatering burgers. This project showcases my expertise in web development and e-commerce integration while offering burger enthusiasts a seamless digital dining experience. ",
     website: "https://foodie-frontend-nine.vercel.app/",
+    code: "https://github.com/Abhishekkuntare/foodie_frontend",
     prev: "/",
   },
   {
@@ -149,6 +152,7 @@ const projects = [
     title: "Made By Me",
     desc: "Made By Me is the Online Course web app which  contains the distant study courses and full HD videos/lectures on each type of domain so that the user is able to gain and aquired the best konwlege.I also include the subscription intrigity in it.The user can access course by  subscription as a month,as a year This is made by the MERN technology and differnt libray's",
     website: "https://madebyme.vercel.app/",
+    code: "https://github.com/Abhishekkuntare/madebyme_frontend",
     prev: "/",
   },
   {
@@ -164,6 +168,7 @@ const projects = [
     title: "Fornite (Create/Build/Play)",
     desc: "Fornite is the game and this website basically based on the UI/Ux and you can see the daily posts ,news ,updates here.Fornite is one the most popular game. I used the various technolgoy to build this webapp such as react,css,js,firebase,etc. ",
     website: "https://fortnite-6eceb.web.app/",
+    code: "https://github.com/Abhishekkuntare",
     prev: "/",
   },
 
@@ -180,6 +185,7 @@ const projects = [
     title: "Disney+ (clone)",
     desc: "Disney+, also known as Disney Plus, is a popular subscription-based streaming service owned and operated by The Walt Disney Company. Launched in November 2019, Disney+ offers a vast library of movies and TV shows from various Disney-owned franchises, including Disney, Pixar, Marvel, Star Wars, and National Geographic. ",
     website: "https://disney-plus-3dc00.web.app",
+    code: "https://github.com/Abhishekkuntare",
     prev: "/",
   },
   {
@@ -195,6 +201,7 @@ const projects = [
     title: "Lamborghini (Cars)",
     desc: "Lamborghini is an Italian luxury sports car manufacturer known for producing some of the most iconic and high-performance vehicles in the world. The company was founded in 1963 by Ferruccio Lamborghini and has since become synonymous with speed, power, and extravagance. ",
     website: "https://lamborghini-f74a3.web.app/",
+    code: "https://github.com/Abhishekkuntare/Lamborgihini",
     prev: "/",
   },
   {
@@ -210,6 +217,7 @@ const projects = [
     title: "X-crypto ",
     desc: "X-crypto is the basic webapp which uses the apis and shows the various types of crypto's value,up and down,market grown,and graphs that is very helpful for the user whoever visit this webapp that's why i build this webapp",
     website: "https://x-crypto-two.vercel.app/",
+    code: "https://github.com/Abhishekkuntare/x-crypto",
     prev: "/",
   },
   {
@@ -225,6 +233,7 @@ const projects = [
     title: "Netflix ",
     desc: "Netflix is a popular streaming service that offers a wide variety of movies, TV shows, documentaries, and original content. It was founded in 1997 by Reed Hastings and Marc Randolph in Los Gatos, California. Initially, Netflix started as a DVD rental-by-mail service, allowing subscribers to rent movies and TV shows by mail and return them at their convenience.",
     website: "https://netflix-153d3.web.app/",
+    code: "https://github.com/Abhishekkuntare/Netflix",
     prev: "/",
   },
   {
@@ -240,6 +249,7 @@ const projects = [
     title: "Pokemon ",
     desc: "Pokemon is the basic web app which is uses the APIs and fetch data according to that and i also implement the search fucntionlty init so that it's feel terrific..",
     website: "https://pokemon-liard-eta.vercel.app/",
+    code: "https://github.com/Abhishekkuntare/pokemon",
     prev: "/",
   },
   {
@@ -255,6 +265,7 @@ const projects = [
     title: "Tesla ",
     desc: "Tesla cars are electric vehicles manufactured by the American company Tesla, Inc. Founded in 2003 by Elon Musk, Tesla has gained widespread recognition for its innovative approach to electric vehicle design and technology. Here are some key features and characteristics of Tesla cars:",
     website: "https://tesla-cbfc3.web.app/",
+    code: "https://github.com/Abhishekkuntare/tesla-Clone",
     prev: "/",
   },
   {
@@ -270,6 +281,7 @@ const projects = [
     title: "Persistence (EMS)",
     desc: "Persistence is the Employee Management System and it is also my 3rd year MiniProject. So as a project leader i was created all the components of these project and provide some extra resourses to build these application apart from that my team members had given their best..",
     website: "https://persistenceemployee.netlify.app/",
+    code: "https://github.com/Abhishekkuntare/persistence",
     prev: "/",
   },
   {
@@ -285,6 +297,7 @@ const projects = [
     title: "Carnival (Social Media)",
     desc: "Carnival is the social media app which is used to create the account and add posts,comments,likes on that posts by the user.This is similar to another social media apps.Yeah the UI/UX is very basic i know because i deeply work on the backend part thats why. Make sure you like it..",
     website: "https://carnivall.netlify.app/",
+    code: "https://github.com/Abhishekkuntare",
     prev: "/",
   },
 
