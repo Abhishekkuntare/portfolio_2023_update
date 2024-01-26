@@ -67,15 +67,13 @@ const WorkInside = () => {
           </div>
         </div>
         <div className="work_inside_tags">
-          {/* add icons rather than name  */}
-          <p style={{ color: "white" }}>Tech/Stack: </p>
           <span>{p.stack}</span>
         </div>
         <div className="work_inside_details">
           <h1>{p.title}</h1>
           <p>{p.desc}</p>
 
-          <div style={{ display: "flex" }}>
+          <div className="work_inside_btn_div">
             <div className="btn work_inside_btn">
               <a href={p.website} target="_blank">
                 <button>VISIT</button>

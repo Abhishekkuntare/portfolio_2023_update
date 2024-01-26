@@ -10,6 +10,7 @@ import img9 from "../assets/web/img9.png";
 import img10 from "../assets/web/img10.png";
 import img11 from "../assets/works/ca/ca_new.png";
 import img12 from "../assets/works/ka/ka1.png"
+import img13 from "../assets/web/img13.png";
 
 const projects = [
   {
@@ -24,6 +25,13 @@ const projects = [
     id: 1,
     name: "Made by me - ",
     link: "madebyme",
+    category: "mernbackendfullstack",
+  },
+  {
+    img: img13,
+    id: 13,
+    name: "Blog me",
+    link: "blogme",
     category: "mernbackendfullstack",
   },
   {

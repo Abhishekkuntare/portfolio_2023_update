@@ -1,5 +1,5 @@
 .start {
-  margin-top: 170px;
+  margin-top: 150px;
   margin-left: 235px;
   display: flex;
   flex-direction: row;
@@ -7,19 +7,24 @@
 .start_txt{
   margin-left: 10px;
   margin-top: 10px;
-  color: #988e9f;
+  color: #ffffff;
   font-size: 18px;
 font-weight: 100;
 font-family: 'Charmonman', cursive;
 
 }
+
 .start_intro{
   font-size: 38px;
   font-weight: 700;
   color: white;
+  font-family: 'Kalnia', serif;
+
 }
 .start_name{
   color: #5918df;
+  font-family: 'Kalnia', serif;
+
 }
 .start_key1{
   font-family: 'Stalinist One', cursive;
@@ -29,7 +34,7 @@ font-family: 'Charmonman', cursive;
 }
 .start_para{
   margin-top: 10px;
-  color: #988e9f;
+  color: #f7f7f7;
   font-size: 25px;
 }
 
@@ -51,5 +56,11 @@ font-family: 'Charmonman', cursive;
 @media screen and (max-width: 817px) {
   .start {
 margin-left: 20px;
+  }
+  .start_intro{
+    font-size: 30px;
+  }
+  .start_name{
+    font-size: 30px;
   }
 }

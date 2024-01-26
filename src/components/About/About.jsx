@@ -182,7 +182,7 @@ const About = () => {
             <Fade bottom>
               <div className="row14">
                 <span className="aboutdata_p row5_myname">
-                  <span className="dot">..... </span> '08/2023'
+                  <span className="dot">..... </span> '04/2024'
                   <span className="'aboutdata_p row5_myname '">
                     {" "}
                     'FullStack Developer + React-native || Fulltime at ???????
@@ -281,10 +281,10 @@ const About = () => {
                     " ' HTML5 / CSS/ JS ', 'React.js', ' SCSS ',
                     'Styled-Components', ' Bootstrap'/ 'Tailwind.css',
                     'Chakara-ui', 'Node.js', ' Express.js', 'MongoDB', '
-                    MySQL/SQL ', 'Firebase', ' React-Native ', 'JAVA ', ' C++',
-                    'Python', 'Numpy', 'Pandas', ' Postman', 'ThunderClient',
-                    'Github', 'Git', 'VS-code', ' Render', ' Vercel ', 'Jupyter
-                    ' ' Next.js ' 'Canvas' 'UI/UX' "
+                    MySQL/SQL ', 'Firebase', ' React-Native ', ' C++',
+                    'Python',' Postman', 'ThunderClient', 'Github', 'Git',
+                    'VS-code', ' Render', ' Vercel ', 'Jupyter ' ' Next.js '
+                    'Canvas' 'UI/UX' , "RestFul API's, TypeScript"
                   </span>
                 </span>
               </div>
@@ -313,7 +313,7 @@ const About = () => {
               </div>
             </Fade>
 
-            <Fade bottom>
+            {/* <Fade bottom>
               <div className="comment">
                 <p className="aboutdata_p comment">
                   <span className="dot">....</span>// If you don't chase it.{" "}
@@ -322,7 +322,7 @@ const About = () => {
                   <span className="dot">...</span>// Just loose it !
                 </p>
               </div>
-            </Fade>
+            </Fade> */}
 
             <Fade bottom>
               <div className="row_1">

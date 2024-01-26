@@ -149,6 +149,7 @@ const Header = () => {
       </div>
       {open && (
         <MobileMenu
+          open={open}
           sound1={sound1}
           setOpen={setOpen}
           toggleMusic={toggleMusic}

@@ -13,6 +13,7 @@
   justify-content: center;
   color: white;
   overflow: hidden !important;
+  font-family: "Kalnia";
 }
 
 .preloader .texts-container {

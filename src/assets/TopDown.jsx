@@ -4,10 +4,15 @@ import sound from "../assets/sound.mp3";
 const TopDown = () => {
   const handleSound = () => {
     new Audio(sound).play();
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
-    <a onClick={() => handleSound()} href="#">
+    <a onClick={() => handleSound()}>
       <div
         style={{
           display: "flex",

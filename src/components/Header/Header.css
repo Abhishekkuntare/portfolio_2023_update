@@ -37,8 +37,9 @@ ul {
   font-size: 22px;
   font-weight: 700;
   color: white;
-  font-family: "Roboto Condensed", sans-serif;
   transition: all 0.5s ease-in-out;
+  font-family: 'Kalnia', serif;
+
 }
 .header_options_01 {
   padding-right: 20px;
@@ -81,22 +82,26 @@ ul:hover {
 }
 
 .mobileMenu {
-  box-shadow: rgba(6, 42, 249, 0.56) 0px 22px 70px 4px;
   top: 0;
   position: fixed;
-  background-color: #0e0c16;
-  width: 100%;
-  height: 300px;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   z-index: 100001;
-  margin-top: 77px;
+  /* background: url("https://cdn.dribbble.com/users/617471/screenshots/6608873/journey-movie-poster-template-psd-by-bornx-dribbble.jpg?resize=800x600&vertical=center"); */
+  background: url("https://cdn.dribbble.com/users/1358460/screenshots/11896098/media/371c060cbef7357ff4e2f54a0408b064.jpg?resize=1000x750&vertical=center");
   left: 0;
   right: 0;
+  
+}
+.mobilemenu_cross{
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .mobileMenu > a > ul {
   z-index: 100000;
   margin-top: 15px;
+  font-size: 30px;
+  color: rgb(249, 249, 249);
 }

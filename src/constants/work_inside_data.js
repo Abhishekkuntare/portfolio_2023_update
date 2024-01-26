@@ -106,6 +106,12 @@ import cry6 from "../assets/app/cryptopro/cry1.png";
 import cry7 from "../assets/app/cryptopro/cry2.png";
 import cry8 from "../assets/app/cryptopro/cry3.png";
 
+import bm1 from "../assets/works/bm/bm1.png";
+import bm2 from "../assets/works/bm/bm2.png";
+import bm3 from "../assets/works/bm/bm3.png";
+import bm4 from "../assets/works/bm/bm4.png";
+import bm5 from "../assets/works/bm/bm5.png";
+
 const projects = [
   {
     id: 0,
@@ -132,7 +138,7 @@ const projects = [
     img3: ka3,
     img4: ka4,
     img5: ka5,
-    stack: "#React.js,#Node.js,#Express.js,#MongoDB,#Redux,Razorpay",
+    stack: "#React.js,#Node.js,#Express.js,#MongoDB",
     title: "KAFF (Foodie",
     desc: "In my portfolio, I proudly present KAFF, an engaging online foodie web app. Crafted using the MERN stack and fortified with Razorpay's secure payment processing, Kaff is your go-to destination for mouthwatering burgers. This project showcases my expertise in web development and e-commerce integration while offering burger enthusiasts a seamless digital dining experience. ",
     website: "https://foodie-frontend-nine.vercel.app/",
@@ -298,6 +304,21 @@ const projects = [
     desc: "Carnival is the social media app which is used to create the account and add posts,comments,likes on that posts by the user.This is similar to another social media apps.Yeah the UI/UX is very basic i know because i deeply work on the backend part thats why. Make sure you like it..",
     website: "https://carnivall.netlify.app/",
     code: "https://github.com/Abhishekkuntare",
+    prev: "/",
+  },
+  {
+    link: "blogme",
+    id: 13,
+    img1: bm1,
+    img2: bm2,
+    img3: bm3,
+    img4: bm4,
+    img5: bm5,
+    stack: "#MERN,#APIs,#Redux,#Postman,#Netlify",
+    title: "Blog me ",
+    desc: "Blog me a blog web app where only admin can create blogs and other users can read blogs.Explore Boundless Horizons: Where Words Unite and Ideas Ignite. Welcome to a World of Insight and Inspiration!",
+    website: "https://blogme-frontend.vercel.app/",
+    code: "https://github.com/Abhishekkuntare/Blogme",
     prev: "/",
   },
 

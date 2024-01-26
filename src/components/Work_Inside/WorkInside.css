@@ -92,7 +92,7 @@
 }
 .work_inside_tags > span {
   color: #988e9f;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .work_inside_details {
@@ -117,11 +117,12 @@
 
 .work_inside_btn {
   font-family: "Source Code Pro", monospace;
-  font-weight: 300;
+  font-weight: 900;
   font-size: 26px;
   text-transform: uppercase;
-  width: 200px;
+  width: 150px;
   margin-left: 30px;
+  border-radius: 10px;
 }
 
 .work_inside_lines {
@@ -139,8 +140,11 @@
   margin-left: 10px;
   font-family: "Source Code Pro", monospace;
 }
-.work_inside_btn_color{
+.work_inside_btn_color {
   background: linear-gradient(-45deg, #e90c00f6, #ff3d3d, #ed583e, #f90000);
+}
+.work_inside_btn_div {
+  display: flex;
 }
 @media screen and (max-width: 900px) {
   .work_inside_side_box {
@@ -154,6 +158,13 @@
 }
 
 @media screen and (max-width: 433px) {
+  .work_inside_btn_div {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    margin-left: 0;
+  }
+
   .work_inside_hl {
     width: 200px;
     margin-bottom: 10px;
@@ -161,5 +172,7 @@
   .work_inside_details > p {
     width: 100%;
   }
-
+  .work_inside_tags > span {
+    font-size: 14px;
+  }
 }
